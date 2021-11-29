@@ -13,7 +13,7 @@ spec:
     app: drupal
   type: ClusterIP
 --- 
-apiVersion: app/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata: 
   labels: 
