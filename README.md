@@ -2,6 +2,8 @@
 K8s deployment demo for Drupal
 
 Script d'installation de Drupal 
+
+>Prerequis : K8s v1.20, Ingress Nginx
 ```
 OPERATOR_NAMESPACE=drupal
 kubectl create namespace "$OPERATOR_NAMESPACE"
